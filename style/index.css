@@ -1,0 +1,39 @@
+  #calendar {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  #calendar td {
+    width: 60px;
+    text-align: center;
+  }
+
+  #calendar td:nth-child(n) {
+    font-weight: bold;
+  }
+  
+  .holiday{
+    color: red;
+  }
+
+  .casual{
+    color: black;
+  }
+
+  .not-focused{
+    color: rgb(219, 218, 218);
+  }
+
+  .buttons{
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #calendar tr:nth-child(n + 3) td:hover{
+    width: 60px;
+    background-color: rgb(148, 110, 190);
+    transition: all .5s ease-out;
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+  }
+
